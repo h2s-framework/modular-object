@@ -1,0 +1,21 @@
+{
+  "name": "h2sf/modular-object",
+  "description": "Modular object framework module - H2S Framework",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "type": "library",
+  "authors": [
+    {
+      "name": "H2S",
+      "email": "mateusz@siarko.pl"
+    }
+  ],
+  "require": {
+    "h2sf/utils": "^0.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Siarko\\ModularObject\\": "src/"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+id: Siarko.ModularObject.default
+
+arguments:
+  \Siarko\DependencyManager\Generator\CodeGenerator:
+    generators:
+      - \Siarko\ModularObject\Generator\Developer\Object\ModularObjectGenerator
